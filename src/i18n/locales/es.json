@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "gallery": "Galería",
+    "testimonials": "Testimonios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "The Wedding Vibes",
+    "subtitle": "Creando Momentos Musicales Inolvidables",
+    "cta": "Reservar Ahora"
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "description": "Somos un conjunto apasionado de músicos profesionales dedicados a hacer que tu día especial sea verdaderamente mágico. Con nuestro diverso repertorio que abarca jazz, música acústica y pop, creamos la atmósfera perfecta para tu celebración de boda."
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "ceremony": {
+      "title": "Música para Ceremonia",
+      "description": "Acompañamiento elegante para tu ceremonia de boda"
+    },
+    "reception": {
+      "title": "Entretenimiento para Recepción",
+      "description": "Música vibrante para mantener a tus invitados bailando toda la noche"
+    },
+    "custom": {
+      "title": "Paquetes Personalizados",
+      "description": "Experiencias musicales adaptadas a tu celebración única"
+    }
+  }
+}

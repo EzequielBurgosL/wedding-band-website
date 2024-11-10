@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "gallery": "Gallery",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "The Wedding Vibes",
+    "subtitle": "Creating Unforgettable Musical Moments",
+    "cta": "Book Now"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a passionate ensemble of professional musicians dedicated to making your special day truly magical. With our diverse repertoire spanning jazz, acoustic, and pop music, we create the perfect atmosphere for your wedding celebration."
+  },
+  "services": {
+    "title": "Our Services",
+    "ceremony": {
+      "title": "Ceremony Music",
+      "description": "Elegant accompaniment for your wedding ceremony"
+    },
+    "reception": {
+      "title": "Reception Entertainment",
+      "description": "Vibrant music to keep your guests dancing all night"
+    },
+    "custom": {
+      "title": "Custom Packages",
+      "description": "Tailored musical experiences for your unique celebration"
+    }
+  }
+}

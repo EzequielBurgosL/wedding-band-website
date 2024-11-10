@@ -1,16 +1,19 @@
-import React, { useState } from 'react';
-import { Menu, X, Music, Instagram, Facebook } from 'lucide-react';
+import { Menu, Music, X } from "lucide-react";
+import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
+import LanguageSelector from "./LanguageSelector";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation();
 
   const menuItems = [
-    { label: 'Home', href: '#home' },
-    { label: 'About', href: '#about' },
-    { label: 'Services', href: '#services' },
-    { label: 'Gallery', href: '#gallery' },
-    { label: 'Testimonials', href: '#testimonials' },
-    { label: 'Book Now', href: '#booking', highlight: true },
+    { label: t("nav.home"), href: "#" },
+    { label: t("nav.about"), href: "#about" },
+    { label: t("nav.services"), href: "#services" },
+    { label: t("nav.gallery"), href: "#gallery" },
+    { label: t("nav.testimonials"), href: "#testimonials" },
+    { label: t("nav.contact"), href: "#booking" },
   ];
 
   return (
@@ -21,7 +24,7 @@ export default function Navigation() {
             <Music className="h-8 w-8 text-rose-400" />
             <span className="ml-2 text-xl font-serif">The Wedding Vibes</span>
           </div>
-          
+
           <div className="hidden md:flex items-center space-x-8">
             {menuItems.map((item) => (
               <a
@@ -29,18 +32,22 @@ export default function Navigation() {
                 href={item.href}
                 className={`${
                   item.highlight
-                    ? 'bg-rose-400 text-white px-4 py-2 rounded-full hover:bg-rose-500 transition'
-                    : 'text-gray-600 hover:text-rose-400 transition'
+                    ? "bg-rose-400 text-white px-4 py-2 rounded-full hover:bg-rose-500 transition"
+                    : "text-gray-600 hover:text-rose-400 transition"
                 }`}
               >
                 {item.label}
               </a>
             ))}
+            <LanguageSelector />
           </div>
-
           <div className="md:hidden">
             <button onClick={() => setIsOpen(!isOpen)}>
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
             </button>
           </div>
         </div>

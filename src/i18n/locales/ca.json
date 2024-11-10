@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "home": "Inici",
+    "about": "Nosaltres",
+    "services": "Serveis",
+    "gallery": "Galeria",
+    "testimonials": "Testimonis",
+    "contact": "Contacte"
+  },
+  "hero": {
+    "title": "The Wedding Vibes",
+    "subtitle": "Creant Moments Musicals Inoblidables",
+    "cta": "Reserva Ara"
+  },
+  "about": {
+    "title": "Sobre Nosaltres",
+    "description": "Som un conjunt apassionat de músics professionals dedicats a fer que el teu dia especial sigui veritablement màgic. Amb el nostre divers repertori que abasta jazz, música acústica i pop, creem l'atmosfera perfecta per a la teva celebració de noces."
+  },
+  "services": {
+    "title": "Els Nostres Serveis",
+    "ceremony": {
+      "title": "Música per a Cerimònia",
+      "description": "Acompanyament elegant per a la teva cerimònia de noces"
+    },
+    "reception": {
+      "title": "Entreteniment per a Recepció",
+      "description": "Música vibrant per mantenir els teus convidats ballant tota la nit"
+    },
+    "custom": {
+      "title": "Paquets Personalitzats",
+      "description": "Experiències musicals adaptades a la teva celebració única"
+    }
+  }
+}
